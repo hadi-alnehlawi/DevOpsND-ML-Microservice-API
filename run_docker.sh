@@ -16,4 +16,4 @@ export IMAGEID=$(docker images -q $IMAGENAME)
 
 # Step 3: 
 # Run flask app
-docker run --rm $IMAGEID
+docker run -p 8000:80 --rm $IMAGEID
