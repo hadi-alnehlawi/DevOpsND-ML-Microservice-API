@@ -10,11 +10,9 @@ if [[ "$(docker images -q ${IMAGENAME} 2> /dev/null)" == "" ]]; then
   docker build --tag $IMAGENAME .
 fi
 
-
 # Step 2: 
 # List docker images
 export IMAGEID=$(docker images -q $IMAGENAME)
-
 
 # Step 3: 
 # Run flask app
