@@ -6,8 +6,7 @@
 # Build image and add a descriptive tag
 export IMAGENAME="devops-ml-api"
 if [[ "$(docker images -q ${IMAGENAME} 2> /dev/null)" == "" ]]; then
-  # do something
-  printf "\n\nIt is not existed\n"
+  printf "\n\nIt is not existed\n\n"
   docker build --tag $IMAGENAME .
 fi
 
