@@ -30,5 +30,6 @@ jobs:
           command: |
             ls
             . venv/bin/activate
-            make lint
+            which python
+            # make lint
             
