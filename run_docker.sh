@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
 ## Complete the following steps to get Docker running locally
-# IMAGE=devops-ml-api
 # Step 1:
 # Build image and add a descriptive tag
-export IMAGE=$1
+export IMAGE=devops-ml-api
 if [[ "$(docker images -q ${IMAGE} 2> /dev/null)" == "" ]]; then
   printf "\n\nIt is not existed\n\n"
   docker build --tag $IMAGE .
