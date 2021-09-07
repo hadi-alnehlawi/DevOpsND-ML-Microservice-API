@@ -30,6 +30,6 @@ jobs:
           command: |
             ls
             . venv/bin/activate
-            pylint --versio
+            pylint --version
             # make lint
             
