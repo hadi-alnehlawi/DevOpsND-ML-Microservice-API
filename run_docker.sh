@@ -11,7 +11,7 @@ fi
 
 # Step 2: 
 # List docker images
-export IMAGEID=$(docker images -q $IMAGE)
+IMAGEID=$(docker images -q $IMAGE)
 
 # Step 3: 
 # Run flask app
