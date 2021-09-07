@@ -16,3 +16,4 @@ docker tag $IMAGE $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
