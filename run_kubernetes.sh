@@ -10,7 +10,7 @@ dockerpath=$DOCKERID/$IMAGE
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run $IMAGE --image=$dockerpath --port 8000
+kubectl run $IMAGE --image=$dockerpath
 
 
 # Step 3:
@@ -18,4 +18,5 @@ kubectl run $IMAGE --image=$dockerpath --port 8000
 
 # Step 4:
 # Forward the container port to a host
+kubectl port-forward pods/$IMAGE 9999:8000
 
