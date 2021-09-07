@@ -4,10 +4,13 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+DOCKERID="hadialnehlawi"
+IMAGE=devops-ml-api
+dockerpath=$DOCKERID/$IMAGE
 
 # Step 2
 # Run the Docker Hub container with kubernetes
+kubectl run $IMAGE --image=$dockerpath --port 8000
 
 
 # Step 3:
