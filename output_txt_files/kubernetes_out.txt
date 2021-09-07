@@ -1,1 +1,6 @@
-<paste log output from Kubernetes-mediated prediction, here>
+pod/devops-ml-api created
+NAME            READY   STATUS    RESTARTS   AGE
+devops-ml-api   1/1     Running   0          10s
+Forwarding from 127.0.0.1:9999 -> 8000
+Forwarding from [::1]:9999 -> 8000
+

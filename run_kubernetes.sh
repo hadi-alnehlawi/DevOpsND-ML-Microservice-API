@@ -12,9 +12,11 @@ dockerpath=$DOCKERID/$IMAGE
 # Run the Docker Hub container with kubernetes
 kubectl run $IMAGE --image=$dockerpath
 
+sleep 10s # Waits 10 seconds.
 
 # Step 3:
 # List kubernetes pods
+kubectl get pods $IMAGE
 
 # Step 4:
 # Forward the container port to a host
