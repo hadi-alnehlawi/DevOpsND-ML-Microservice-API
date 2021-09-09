@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/hadi-alnehlawi/DevOpsND-ML-Microservice-API.svg?style=svg&circle-token=b0eb8023cc4301a80ac4adf9ae65169a2c8d44e1)](https://circleci.com/gh/hadi-alnehlawi/DevOpsND-ML-Microservice-API.svg?style=svg&circle-token=b0eb8023cc4301a80ac4adf9ae65169a2c8d44e1)
+[![CircleCI](https://circleci.com/gh/hadi-alnehlawi/DevOpsND-ML-Microservice-API.svg?style=svg)](https://circleci.com/gh/hadi-alnehlawi/DevOpsND-ML-Microservice-API.svg?style=svg)
 
 
 ## Project Overview
