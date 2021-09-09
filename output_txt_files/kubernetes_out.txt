@@ -3,4 +3,10 @@ NAME            READY   STATUS    RESTARTS   AGE
 devops-ml-api   1/1     Running   0          10s
 Forwarding from 127.0.0.1:9999 -> 8000
 Forwarding from [::1]:9999 -> 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
 
